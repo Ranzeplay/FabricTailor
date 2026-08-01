@@ -25,7 +25,7 @@ public class CapeTab implements SkinTabType {
 
     @Override
     public ItemStack getIcon() {
-        return Items.LIME_BANNER.getDefaultInstance();
+        return Items.BANNER.lime().getDefaultInstance();
     }
 
     @Override
