@@ -18,7 +18,7 @@ public class LocalSkinTab implements SkinTabType {
     private final ItemStack ICON;
 
     public LocalSkinTab() {
-        this.ICON = new ItemStack(Items.MAGENTA_GLAZED_TERRACOTTA);
+        this.ICON = new ItemStack(Items.GLAZED_TERRACOTTA.magenta());
         this.DESCRIPTION = TextTranslations.create("description.fabrictailor.title_local");
         this.TITLE = TextTranslations.create("tab.fabrictailor.title_local");
     }
